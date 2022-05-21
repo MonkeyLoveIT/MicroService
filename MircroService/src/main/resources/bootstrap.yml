@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: MircroService
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        prefix: MircroService
+      discovery:
+        server-addr: localhost:8848
+        namespace: dev
+
+  main:
+    allow-bean-definition-overriding: true

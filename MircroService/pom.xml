@@ -32,6 +32,27 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!--nacos客户端服务发现-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
+
+        <!--nacos客户端配置管理依赖-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>2.2.0.RELEASE</version>
+        </dependency>
+
+        <!--@RestController,返回固定格式如JSON，@RequestMapping访问url-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.2.5.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

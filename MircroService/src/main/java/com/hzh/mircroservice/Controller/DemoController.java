@@ -14,6 +14,7 @@ import java.sql.SQLException;
 @RestController
 @RequestMapping("/demo")
 public class DemoController {
+    /*
     @Autowired
     DataSource dataSource;
 
@@ -37,5 +38,5 @@ public class DemoController {
         return "success";
     }
 
-
+    */
 }

@@ -14,12 +14,11 @@ import java.sql.SQLException;
 @RestController
 @RequestMapping("/demo")
 public class DemoController {
-    /*
     @Autowired
     DataSource dataSource;
 
     @GetMapping("test")
-    public String testDemo(){
+    public String testDemo() {
         return "test successful";
     }
 
@@ -30,13 +29,11 @@ public class DemoController {
         PreparedStatement pstmt = connection.prepareStatement(sql);
         ResultSet resultSet = pstmt.executeQuery();
         System.out.println(resultSet);
-        while(resultSet.next()){
+        while (resultSet.next()) {
             System.out.println(resultSet.getRow());
         }
         pstmt.close();
         connection.close();
         return "success";
     }
-
-    */
 }

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MircroService/MircroService.iml" filepath="$PROJECT_DIR$/MircroService/MircroService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/MyFirstMrcService.iml" filepath="$PROJECT_DIR$/.idea/MyFirstMrcService.iml" />
     </modules>
   </component>
 </project>
